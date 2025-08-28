@@ -1,0 +1,22 @@
+.column ul{
+ display: grid;
+     padding: 20px;
+     grid-template-columns: 1fr 2fr 1fr;   
+     gap: 10px;
+     list-style-type:none ;
+    
+text-align: center;
+     
+
+}
+.column ul li{
+background-color: greenyellow;
+padding: 10px;
+border-radius: 13px;
+
+}
+
+.column h3{
+
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+
+.MONICA h1
+{
+background-color: red;
+color: cyan;
+
+}
+
+.MONICA h2
+{
+background-color: cyan;
+color: red;
+
+}
+
+.super
+{
+display: flex;
+gap: 30px;
+}
+
+#image
+{
+display: flex;
+gap: 30px;
+}
+#office
+{
+   background-color: blanchedalmond;
+
+}

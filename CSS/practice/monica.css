@@ -1,0 +1,34 @@
+#monica
+
+{
+  background-color: red;  
+
+}
+
+#monica h1
+
+    {
+        
+background-color: brown;
+color: azure;
+
+    }
+   
+    
+#monica h2
+    {
+        background-color: antiquewhite;
+        color: blue;
+
+
+    }
+    
+    .coolie{
+        display: flex;
+    }
+
+    .super
+    {
+display: flex;
+
+    }
