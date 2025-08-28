@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin: auto;
+ align-items: center;
+ justify-content: center;
+ background-image: url(../BEE_VERSE/img/logo.jpeg);
+ background-position: center;
+ background-repeat: no-repeat;
+
+ background-color: beige;
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px ;
+    border-radius: 9px;
+    width: 700px;
+    padding: 100px;
+    margin-top: 150px;
+   
+}
+
+.login{
+    background-color:rgb(255, 255, 3);
+   
+    padding: 14px;
+    margin: 1px;
+    border-radius: 12px;
+    align-content: center;
+    display: inline;
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 200px;
+    
+    
+}
+input{
+    width: 250px;
+    padding: 10px;
+    margin: 12px;
+    margin-top: 30px;
+    border-radius: 20px;
+height: fit-content;
+
+  
+}
+tr{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+}
+th{
+    margin-top: 70px;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .right_nav{
+       
+        background-color:white;
+        color: blue;
+        padding: 10px;
+        margin: 10px;
+        border: 10px;
+        text-decoration: none;
+        display: flex;
+        gap: 20px;
+        width: fit-content;
+        border-radius: 20px;
+font-family: sans-serif; 
+font-weight: 500;       
+       font-size: larger;
+   
+
+    
+    }
+
+    .flex{
+        background-color: antiquewhite;
+        color: blue;
+        display: flex;
+        justify-content: space-between;
+                font-weight:500;
+font-size: larger;
+        padding: 10px;
+        border:30px;
+    }
+.right-side{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    align-items: right;   
+        }
+@media (min-width:600px){
+
+    .ham{
+        display: none;
+    }
+}
+        
+@media (max-width:600px) {
+
+.right-side > :not(.ham){
+    display: none;
+}
+
+.ham{
+    color: black;
+    font-size: 25px;
+}
+           
+
+    
+}
+    
+</style>
+<body>
+    <div class="flex">
+        <h2
+        >LOGO</h2>
+    
+    <nav>
+        <div class="right-side">
+            <a href="#" class="right_nav">home</a>
+            <a href="#" class="right_nav">login</a>
+            <a href="#" class="right_nav">logout</a>
+            <a href="#" class="right_nav">product</a>
+            <a href="" class="right_nav ham">☰</a>
+        </div>
+    </nav>
+    </div>
+</body>
+</html>
